@@ -60,7 +60,7 @@ export default function Destination({Data}) {
                                     <p className="text-lg-start text-center">{x.description}</p><br></br>
                                     <Table borderless className="text-uppercase border-top border-secondary">
                                         <thead>
-                                            <tr>
+                                            <tr className="small">
                                                 <td>AVG.DISTANCE</td>
                                                 <td>EST.TIME TRAVEL</td>
                                             </tr>
